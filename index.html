@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>JS Eytan Ay One</title>
+</head>
+<body>
+    <div id="box" onmouseenter="enterColor()" onmouseleave="leaveColor()" onclick="onClick()">Hover over me!</div>
+    
+    <ul id="list" onclick="addItem()">
+        <li>Starter item</li>
+        <li>Click us!</li>
+    </ul>
+    <!-- reservations -->
+    <div id="reservation">
+        <input type="text" id="textBox">
+        <button onclick="checkReservation()">Check Reservation!</button>
+    </div>
+    </br></br></br>
+    <!-- boxes -->
+    <div id="container"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
