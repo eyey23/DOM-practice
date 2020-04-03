@@ -1,3 +1,5 @@
+// Basic events practice
+
 const box = document.getElementById("box")
 
 const enterColor = function () {
